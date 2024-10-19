@@ -31,9 +31,10 @@ The amount of capital required to hold against certain assets, as mentioned in B
 ![image](https://github.com/user-attachments/assets/31880481-7bd8-474e-97ce-53239813a068)
 
 **(Claim on Corporate)**
+
 ![image](https://github.com/user-attachments/assets/1a61c13e-64f4-4d7a-915b-c95c7f0fd950)
 
-
+Such High capital requirement does not allow much flexibility for lenders, thus many prefer the Internal Rating Approach (IRB), which allows the use of internal data to measure **Credit Risk** more accurately and detailed.
 
 
 
