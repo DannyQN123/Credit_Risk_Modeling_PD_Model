@@ -14,7 +14,7 @@ Pillar 1 talks about the Minimum Capital Requirement a bank must have, which dea
 
 ![image](https://github.com/user-attachments/assets/1e58ca85-9409-4e8f-97d6-b04cc08340bb)
 
-- Within Credit Risk, there are 3 approaches a lending institution can take:  
+###  Within Credit Risk, there are 3 approaches a lending institution can take:  
 1. Standardized approach (SA)
 2. Foundation Internal Based Rating Approach (F-IRB)
 3. Advanced Internal Based Rating Approach (A-IRB)
@@ -23,7 +23,7 @@ Pillar 1 talks about the Minimum Capital Requirement a bank must have, which dea
 ![image](https://github.com/user-attachments/assets/b00bb55c-e72e-4e77-8a35-3e585e15034a)
 ![image](https://github.com/user-attachments/assets/50363918-ae23-482f-85cd-c7edbb61bcf5)
 
-#### Foundational Approach  
+### Foundational Approach  
 The amount of capital required to hold against certain assets, as mentioned in Basel 2 are the following  
 
 **(Claim on Sovereign)**  
@@ -34,14 +34,23 @@ The amount of capital required to hold against certain assets, as mentioned in B
 
 ![image](https://github.com/user-attachments/assets/1a61c13e-64f4-4d7a-915b-c95c7f0fd950)
 
-Such High capital requirement does not allow much flexibility for lenders, thus many prefer the Internal Rating Approach (IRB), which allows the use of internal data to measure **Credit Risk** more accurately and detailed.
+Such High capital requirement does not allow much flexibility for lenders, thus many prefer the Internal Rating Approach (IRB), which allows the use of internal data to measure **Credit Risk** more accurately and detailed, which in turn allows lenders to lend more.
 
+### IRB approach
+IRB allow banks to measure their own internal Credit Risk  
 
+![image](https://github.com/user-attachments/assets/69b77dce-4c05-4689-bc8a-003665d0323f)
 
+## The risk component requires to calculate are: 
+- **PD - Probability of Default**
+- **LGD - Loss Given Default**
+- **EAD - Expossure at Default**
+- **EL - Expected Loss** = **PD x LGD x EAD**
 
+![image](https://github.com/user-attachments/assets/1fa42a0f-1718-4883-af71-f8cebca691df)
 
+In this Project, we used Logistics Regression to Estimate the probability of default (PD)   
 
-
-
-
-
+### Why Logistics Regression?
+- Due to is interpretable nature, Logistics is prioritize.
+- Also, PD Models can be used to make business decision (Application Scoring - like the website provided above) thus high level of interpretability is even more desired.
