@@ -2,7 +2,7 @@ import streamlit as st
 from prediction_helper import predict  # Ensure this is correctly linked to your prediction_helper.py
 
 # Set the page configuration and title
-st.set_page_config(page_title="Credit Risk Modeling: PD Model ", page_icon="📊")
+st.set_page_config(page_title="Credit Risk Modeling: PD Model")
 st.title("Credit Risk Modeling: PD Model")
 
 # Create rows of three columns each
@@ -15,7 +15,7 @@ row4 = st.columns(3)
 with row1[0]:
     age = st.number_input('Age', min_value=18, step=1, max_value=100, value=28)
 with row1[1]:
-    income = st.number_input('Income (Rupee)(0-1,200,000)', min_value=0, value=1200000)
+    income = st.number_input('Annual Income (Rupee)(0-1,200,000)', min_value=0, value=1200000)
 with row1[2]:
     loan_amount = st.number_input('Loan Amount (Rupee)(0-2,560,000)', min_value=0, value=2560000)
 
@@ -36,7 +36,7 @@ with row3[0]:
 with row3[1]:
     credit_utilization_ratio = st.number_input('Credit Utilization Ratio (%)(0-100)', min_value=0, max_value=100, step=1, value=30)
 with row3[2]:
-    num_open_accounts = st.number_input('Open Loan Accounts', min_value=1, max_value=4, step=1, value=2)
+    num_open_accounts = st.number_input('Open Loan Accounts (Min:1, Max:4)', min_value=1, max_value=4, step=1, value=2)
 
 
 with row4[0]:
