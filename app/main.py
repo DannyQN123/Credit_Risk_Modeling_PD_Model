@@ -59,6 +59,6 @@ if st.button('Calculate Risk'):
 
     # Display the results
     st.write(f"Default Probability: {probability:.2%}")
-    st.write(f"Credit Score: {credit_score}")
+    st.write(f"Credit Score (300-850): {credit_score}")
     st.write(f"Rating: {rating}")
 
