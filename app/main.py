@@ -58,7 +58,7 @@ if st.button('Calculate Risk'):
                                                 residence_type, loan_purpose, loan_type)
 
     # Display the results
-    st.write(f"Deafult Probability: {probability:.2%}")
+    st.write(f"Default Probability: {probability:.2%}")
     st.write(f"Credit Score: {credit_score}")
     st.write(f"Rating: {rating}")
 
