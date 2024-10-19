@@ -11,7 +11,7 @@
 
 ## Basel 2 Review
 **Basel 2** has 3 pillars, but **Pillar 1** is what relevant to our project.  
-Pillar 1 talks about the Minimum Capital Requirement a bank must have, which deals with 3 types of risk
+Pillar 1 talks about the Minimum Capital Requirement a financial institution must have, which deals with 3 types of risk
 - Credit Risk - as relevant to our project
 - Operational Risk
 - Market Risk
