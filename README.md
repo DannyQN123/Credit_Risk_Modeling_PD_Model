@@ -3,6 +3,7 @@
 1. To build a Credit Risk model that predicts the Probability of Default (PD) of a customer, or, the probability that the customer will not repay their debt.
 2. Create a User Interrface, to let Users input **_Informations_** of a customer, and return the **_Probability of Default_** of this customer
    - Link to website: https://credit-risk-pd-modeling-danny-project.streamlit.app/
+   - Link to Python Code: https://github.com/DannyQN123/Credit_Risk_Modeling_PD_Model/blob/main/credit_risk_model_scrappaper.ipynb
 
 ![image](https://github.com/user-attachments/assets/e151fee7-316a-43c4-a10d-cb50d555112b)
 
